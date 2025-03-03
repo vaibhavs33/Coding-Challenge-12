@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //Event listener for the individual customer card
         customerDiv.addEventListener("click", (event) => {
             //Logging when a customer card is clicked
-            console.log("Customer Card Clicked"); 
+            console.log(`${name} Clicked`); 
 
             //Stopping the event from bubbling to the parent container
             event.stopPropagation(); 
